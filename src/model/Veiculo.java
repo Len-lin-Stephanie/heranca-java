@@ -1,14 +1,14 @@
 package model;
 
-public abstract class Veiculo {
+public interface  Veiculo {
 	
 	
 	/*public String acelerear() {
 		return "Acelerando o veículo";
 	}*/
 	
-	public abstract String acelerar();
+	public  String acelerar();
 		
 	
-	public abstract String frear();
+	public String frear();
 }
